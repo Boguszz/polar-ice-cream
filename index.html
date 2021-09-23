@@ -151,121 +151,126 @@
         </section>
         
         <!-- Our product section -->
-        <section>
-            <h2>Our Product</h2>
-            
-            <!-- Filter button -->
-            <form class="filter-product" action="#">
-                <label class="filter-product__wrapper">
-                    <input class="filter-product__input" type="radio" name="filter-product" value="ICE CREAM" checked>
-                    <span class="filter-product__text">ICE CREAM</span>
-                </label>
-                <label class="filter-product__wrapper">
-                    <input class="filter-product__input" type="radio" name="filter-product" value="CAYENNE CHOCOLATE">
-                    <span class="filter-product__text">CAYENNE CHOCOLATE</span>
-                </label>
-                <label class="filter-product__wrapper">
-                    <input class="filter-product__input" type="radio" name="filter-product" value="">
-                    <span class="filter-product__text">CAKE BATTER</span>
-                </label>
-                <label class="filter-product__wrapper">
-                    <input class="filter-product__input" type="radio" name="filter-product" value="CANDY CANE">
-                    <span class="filter-product__text">CANDY CANE</span>
-                </label>
-                <label class="filter-product__wrapper">
-                    <input class="filter-product__input" type="radio" name="filter-product" value="PLATTERS">
-                    <span class="filter-product__text">PLATTERS</span>
-                </label>
-                <label class="filter-product__wrapper">
-                    <input class="filter-product__input" type="radio" name="filter-product" value="DESSERT">
-                    <span class="filter-product__text">DESSERT</span>
-                </label>
-            </form>
-            
-            <!-- Products -->
-            <ul class="our-products">
-                <li class="our-products__item">
-                    <article class="our-products__article">
-                        <div class="our-products__image">
-                            <img
-                                srcset="
-                                    ./images/1160/our-products/1/img@1x.png 1x,
-                                    ./images/1160/our-products/1/img@2x.png 2x,
-                                    ./images/1160/our-products/1/img@3x.png 3x
-                                "
-                                src="./images/1160/our-products/1/img@1x.png"
-                                alt="Brown bread"
-                                width="580"
-                                height="415"
-                            >
-                        </div>
-                        <div class="our-products__meta">
-                            <h2 class="our-products__title">Brown bread</h2>
-                            <p class="our-products__descripton">
-                                Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au
-                                Pain is a pioneer in the healthy fast food scene.
-                            </p>
-                            <span class="our-products__price">$19.55</span>
-                            <span class="our-products__price our-products__price--old">$22.55</span>
-                            <button class="our-products__button button" type="button">Buy Now</button>
-                        </div>
-                    </article>
-                </li>
-                <li class="our-products__item">
-                    <article class="our-products__article">
-                        <div class="our-products__image">
-                            <img
-                                srcset="
-                                    ./images/1160/our-products/2/img@1x.png 1x,
-                                    ./images/1160/our-products/2/img@2x.png 2x,
-                                    ./images/1160/our-products/2/img@3x.png 3x
-                                "
-                                src="./images/1160/our-products/2/img@1x.png"
-                                alt="Cayenne chocolate"
-                                width="580"
-                                height="415"
-                            >
-                        </div>
-                        <div class="our-products__meta">
-                            <h2 class="our-products__title">Cayenne chocolate</h2>
-                            <p class="our-products__descripton">
-                                Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au
-                                Pain is a pioneer in the healthy fast food scene.
-                            </p>
-                            <span class="our-products__price">$19.55</span>
-                            <span class="our-products__price our-products__price--old">$22.55</span>
-                            <button class="our-products__button button" type="button">Buy Now</button>
-                        </div>
-                    </article>
-                </li>
-                <li class="our-products__item">
-                    <article class="our-products__article">
-                        <div class="our-products__image">
-                            <img
-                                srcset="
-                                    ./images/1160/our-products/3/img@1x.png 1x,
-                                    ./images/1160/our-products/3/img@2x.png 2x,
-                                    ./images/1160/our-products/3/img@3x.png 3x
-                                "
-                                src="./images/1160/our-products/3/img@1x.png"
-                                alt="Sweet corn"
-                                width="580"
-                                height="415"
-                            >
-                        </div>
-                        <div class="our-products__meta">
-                            <h2 class="our-products__title">Sweet corn</h2>
-                            <p class="our-products__descripton">
-                                Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au
-                                Pain is a pioneer in the healthy fast food scene.
-                            </p>
-                            <span class="our-products__price">$19.55</span>
-                            <span class="our-products__price our-products__price--old">$22.55</span>
-                            <button class="our-products__button button" type="button">Buy Now</button>
-                        </div>
-                    </article>
-                </li>
-            </ul>
+        <section class="section section--product">
+            <div class="container">
+                <h2 class="section__title">Our Product</h2>
+                
+                <!-- Filter button -->
+                <form class="filter-product" action="#">
+                    <label class="filter-product__wrapper">
+                        <input class="filter-product__input" type="radio" name="filter-product" value="ICE CREAM" checked>
+                        <span class="filter-product__text">ICE CREAM</span>
+                    </label>
+                    <label class="filter-product__wrapper">
+                        <input class="filter-product__input" type="radio" name="filter-product" value="CAYENNE CHOCOLATE">
+                        <span class="filter-product__text">CAYENNE CHOCOLATE</span>
+                    </label>
+                    <label class="filter-product__wrapper">
+                        <input class="filter-product__input" type="radio" name="filter-product" value="">
+                        <span class="filter-product__text">CAKE BATTER</span>
+                    </label>
+                    <label class="filter-product__wrapper">
+                        <input class="filter-product__input" type="radio" name="filter-product" value="CANDY CANE">
+                        <span class="filter-product__text">CANDY CANE</span>
+                    </label>
+                    <label class="filter-product__wrapper">
+                        <input class="filter-product__input" type="radio" name="filter-product" value="PLATTERS">
+                        <span class="filter-product__text">PLATTERS</span>
+                    </label>
+                    <label class="filter-product__wrapper">
+                        <input class="filter-product__input" type="radio" name="filter-product" value="DESSERT">
+                        <span class="filter-product__text">DESSERT</span>
+                    </label>
+                </form>
+                
+                <!-- Products -->
+                <ul class="our-products">
+                    <li class="our-products__item">
+                        <article class="our-products__article">
+                            <div class="our-products__image">
+                                <img
+                                    srcset="
+                                        ./images/1160/our-products/1/img@1x.png 1x,
+                                        ./images/1160/our-products/1/img@2x.png 2x,
+                                        ./images/1160/our-products/1/img@3x.png 3x
+                                    "
+                                    src="./images/1160/our-products/1/img@1x.png"
+                                    alt="Brown bread"
+                                    width="580"
+                                    height="415"
+                                >
+                            </div>
+                            <div class="our-products__meta">
+                                <h2 class="our-products__title">Brown bread</h2>
+                                <p class="our-products__descripton">
+                                    Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast
+                                    food scene.Bon Au
+                                    Pain is a pioneer in the healthy fast food scene.
+                                </p>
+                                <span class="our-products__price">$19.55</span>
+                                <span class="our-products__price our-products__price--old">$22.55</span>
+                                <button class="our-products__button button" type="button">Buy Now</button>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="our-products__item">
+                        <article class="our-products__article">
+                            <div class="our-products__image">
+                                <img
+                                    srcset="
+                                        ./images/1160/our-products/2/img@1x.png 1x,
+                                        ./images/1160/our-products/2/img@2x.png 2x,
+                                        ./images/1160/our-products/2/img@3x.png 3x
+                                    "
+                                    src="./images/1160/our-products/2/img@1x.png"
+                                    alt="Cayenne chocolate"
+                                    width="580"
+                                    height="415"
+                                >
+                            </div>
+                            <div class="our-products__meta">
+                                <h2 class="our-products__title">Cayenne chocolate</h2>
+                                <p class="our-products__descripton">
+                                    Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast
+                                    food scene.Bon Au
+                                    Pain is a pioneer in the healthy fast food scene.
+                                </p>
+                                <span class="our-products__price">$19.55</span>
+                                <span class="our-products__price our-products__price--old">$22.55</span>
+                                <button class="our-products__button button" type="button">Buy Now</button>
+                            </div>
+                        </article>
+                    </li>
+                    <li class="our-products__item">
+                        <article class="our-products__article">
+                            <div class="our-products__image">
+                                <img
+                                    srcset="
+                                        ./images/1160/our-products/3/img@1x.png 1x,
+                                        ./images/1160/our-products/3/img@2x.png 2x,
+                                        ./images/1160/our-products/3/img@3x.png 3x
+                                    "
+                                    src="./images/1160/our-products/3/img@1x.png"
+                                    alt="Sweet corn"
+                                    width="580"
+                                    height="415"
+                                >
+                            </div>
+                            <div class="our-products__meta">
+                                <h2 class="our-products__title">Sweet corn</h2>
+                                <p class="our-products__descripton">
+                                    Bon Au Pain is a pioneer in the healthy fast food scene.Bon Au Pain is a pioneer in the healthy fast
+                                    food scene.Bon Au
+                                    Pain is a pioneer in the healthy fast food scene.
+                                </p>
+                                <span class="our-products__price">$19.55</span>
+                                <span class="our-products__price our-products__price--old">$22.55</span>
+                                <button class="our-products__button button" type="button">Buy Now</button>
+                            </div>
+                        </article>
+                    </li>
+                </ul>
+            </div>
         </section>
         
         <!-- Feedback section -->
