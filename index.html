@@ -5,49 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Polar - Ice cream</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Hind+Madurai:wght@400;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+        
+    <!-- Style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
     <!-- Logo, navigations, button buy -->
-    <header>
-        <!-- Logo -->
-        <a class="logo" href="./index.html">
-            <img class="logo__icon" src="./icons/png/logo.png" alt="Logo">
-        </a>
-        
-        <!-- Navigations -->
-        <ul class="navigations">
-            <li class="navigations__item">
-                <a class="navigations__link" href="#">Home</a>
-            </li>
-            <li class="navigations__item">
-                <a class="navigations__link" href="#">Product</a>
-            </li>
-            <li class="navigations__item">
-                <a class="navigations__link" href="#">Pricing</a>
-            </li>
-            <li class="navigations__item">
-                <a class="navigations__link" href="#">Testimonials</a>
-            </li>
-            <li class="navigations__item">
-                <a class="navigations__link" href="#">Contact Us</a>
-            </li>
-        </ul>
-        
-        <!-- Button nuy now -->
-        <button class="button" type="button">Buy Now</button>
+    <header class="header">
+        <div class="container container--header ">
+            <!-- Logo -->
+            <a class="header__logo logo" href="./index.html">
+                <img src="./icons/png/logo.png" alt="Logo">
+            </a>
+            
+            <!-- Navigations -->
+            <ul class="header__navigations navigations">
+                <li class="navigations__item">
+                    <a class="navigations__link navigations__link--current" href="#">Home</a>
+                </li>
+                <li class="navigations__item">
+                    <a class="navigations__link" href="#">Product</a>
+                </li>
+                <li class="navigations__item">
+                    <a class="navigations__link" href="#">Pricing</a>
+                </li>
+                <li class="navigations__item">
+                    <a class="navigations__link" href="#">Testimonials</a>
+                </li>
+                <li class="navigations__item">
+                    <a class="navigations__link" href="#">Contact Us</a>
+                </li>
+            </ul>
+            
+            <!-- Button nuy now -->
+            <button class="header__button button" type="button">Buy Now</button>
+        </div>
     </header>
     
     <main>
         <!-- Hero section -->
-        <section>
-            <p>Sweet fun, full of milk.</p>
-            <h1>Feel inside cold with our delicious ice-cream.</h1>
-            <p>
-                Some food has looked so awful that it's looked like something that the dog's brought home, yet after one mouthful
-                I've
-                been left eating my thoughts, my words.
-            </p>
-            <button class="button" type="button">Buy Now</button>
+        <section class="section section--hero">
+            <div class="container">
+                <p>Sweet fun, full of milk.</p>
+                <h1>Feel inside cold with our delicious ice-cream.</h1>
+                <p>
+                    Some food has looked so awful that it's looked like something that the dog's brought home, yet after one mouthful
+                    I've
+                    been left eating my thoughts, my words.
+                </p>
+                <button class="button" type="button">Buy Now</button>
+            </div>
         </section>
         
         <!-- Section our advantages -->
