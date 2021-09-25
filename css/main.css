@@ -102,6 +102,17 @@ p {
   padding-bottom: 112px;
 }
 
+.section--feedback {
+  padding-top: 0;
+  padding-bottom: 150px;
+}
+
+.section--application {
+  padding-top: 122px;
+  padding-bottom: 136px;
+  background-color: var(--second-bg-color);
+}
+
 .section__title {
   font-family: "Hind Madurai";
   font-weight: 600;
@@ -538,5 +549,89 @@ p {
   line-height: 1.5;
   color: #000000;
   opacity: 0.7;
+}
+
+.application {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.application__images {
+  position: absolute;
+  top: -30px;
+  left: 0;
+}
+
+.application__title {
+  font-weight: 500;
+  font-size: 44.2px;
+  line-height: 1.176;
+  color: #000000;
+  margin-bottom: 20px;
+}
+
+.application__description {
+  font-size: 18px;
+  line-height: 1.166;
+  letter-spacing: 0.01em;
+  opacity: 0.7;
+  margin-bottom: 20px;
+  width: 607px;
+}
+
+.application__advantages {
+  margin-bottom: 40px;
+}
+
+.application__advantages-item {
+  margin-bottom: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.application__advantages-item:last-child {
+  margin-bottom: 0;
+}
+
+.application__advantages-icon-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 30px;
+  height: 28px;
+  margin-right: 10px;
+  background-color: #ffffff;
+}
+
+.application__store {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.application__store-item {
+  margin-right: 7px;
+}
+
+.application__store-item:last-child {
+  margin-right: 0;
 }
 /*# sourceMappingURL=main.css.map */

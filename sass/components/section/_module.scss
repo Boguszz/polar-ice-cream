@@ -16,6 +16,16 @@
     padding-top: 137px;
     padding-bottom: 112px;
   }
+  &--feedback {
+    padding-top: 0;
+    padding-bottom: 150px;
+  }
+
+  &--application {
+    padding-top: 122px;
+    padding-bottom: 136px;
+    background-color: var(--second-bg-color);
+  }
 }
 
 .section__title {
