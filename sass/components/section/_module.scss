@@ -26,6 +26,11 @@
     padding-bottom: 136px;
     background-color: var(--second-bg-color);
   }
+
+  &--feedback-form {
+    padding-top: 191px;
+    padding-bottom: 146px;
+  }
 }
 
 .section__title {
@@ -35,4 +40,13 @@
   line-height: 1.38;
   text-align: center;
   padding-bottom: 64px;
+
+  &--feedback-form {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 1.181;
+    color: #000000;
+    padding-bottom: 28px;
+  }
 }

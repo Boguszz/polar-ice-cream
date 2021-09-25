@@ -113,6 +113,11 @@ p {
   background-color: var(--second-bg-color);
 }
 
+.section--feedback-form {
+  padding-top: 191px;
+  padding-bottom: 146px;
+}
+
 .section__title {
   font-family: "Hind Madurai";
   font-weight: 600;
@@ -120,6 +125,15 @@ p {
   line-height: 1.38;
   text-align: center;
   padding-bottom: 64px;
+}
+
+.section__title--feedback-form {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 1.181;
+  color: #000000;
+  padding-bottom: 28px;
 }
 
 .container {
@@ -633,5 +647,60 @@ p {
 
 .application__store-item:last-child {
   margin-right: 0;
+}
+
+.feedback-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.feedback-form__input {
+  width: 637px;
+  height: 74px;
+  padding: 30px;
+  font-size: 14px;
+  line-height: 1.142;
+  color: #0f0000;
+  opacity: 1;
+  background-color: #fafafa;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.feedback-form__input::-webkit-input-placeholder {
+  font-size: 14px;
+  line-height: 1.142;
+  color: #0f0000;
+  opacity: 0.6;
+}
+
+.feedback-form__input:-ms-input-placeholder {
+  font-size: 14px;
+  line-height: 1.142;
+  color: #0f0000;
+  opacity: 0.6;
+}
+
+.feedback-form__input::-ms-input-placeholder {
+  font-size: 14px;
+  line-height: 1.142;
+  color: #0f0000;
+  opacity: 0.6;
+}
+
+.feedback-form__input::placeholder {
+  font-size: 14px;
+  line-height: 1.142;
+  color: #0f0000;
+  opacity: 0.6;
+}
+
+.feedback-form__button {
+  max-width: 137;
 }
 /*# sourceMappingURL=main.css.map */
